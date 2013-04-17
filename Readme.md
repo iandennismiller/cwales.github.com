@@ -1,7 +1,10 @@
 2013-04-16 
 Ian Dennis Miller
 
-Transcribed from _why's handwritten-then-scanned printout 'HOMEWORK'
+# just_let_this_sit.ml
+
+Transcribed from _why's handwritten-then-scanned printout 'HOMEWORK'. Here is a copy of the original: http://www.scribd.com/doc/135658986/-why-Homework
+
 
 This is an OCaml script that polls a site (e.g. whytheluckystiff.net)
 When it finds something it likes, it'll print it directly with lp
