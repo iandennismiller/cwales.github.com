@@ -7,8 +7,9 @@
 
 let private_press = "H12230"
 let ppppprint_the q doc =
-	Sys.command("wget -q -O _tmp " ^ q ^ "/" ^ doc);
-	Sys.command("lp -o raw -d " ^ private_press ^ " _tmp")
+	(*Sys.command("wget -q -O _tmp " ^ q ^ "/" ^ doc);
+	Sys.command("lp -o raw -d " ^ private_press ^ " _tmp") *)
+	Sys.command("wget -q -O ./" ^ doc ^ ".pcl " ^ q ^ "/" ^ doc)
 
 let sscan_the thisfar q line =
 	let entry = Str.split(Str.regexp "\t") line in
